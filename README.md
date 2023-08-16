@@ -3,6 +3,6 @@
 TEC, Semestre II, 2023  
 Gadyr Calderón Díaz, 2022327328    
 
-(Tareas)[GadirCalderonDiaz/bd1/tareas]
-Proyectos
-Quices
+[Tareas](tareas/README.md)
+[Proyectos](proyectos//README.md)
+[Quices](quices/README.md)

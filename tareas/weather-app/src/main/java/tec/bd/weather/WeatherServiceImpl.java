@@ -21,9 +21,13 @@ public class WeatherServiceImpl implements WeatherService {
         };
 
         this.zipCodeTemperatureData = new HashMap<>(){
-            { put("90210", 23.0f ); }
-            { put("33122", 24.0f ); }
-            { put("506", 25.0f ); }
+            { put("0200", 23.0f ); }
+            { put("0100", 24.0f ); }
+            { put("0400", 25.0f ); }
+             { put("0300", 26.0f ); }
+            { put("0700", 27.0f ); }
+            { put("0600", 28.0f ); }
+            { put("0500", 29.0f ); }
         };
     }
 
@@ -35,6 +39,7 @@ public class WeatherServiceImpl implements WeatherService {
 
     @Override
     public float getZipCodeTemperature(String zipCode) {
-        return 0;
+         var temperature = ofNullable(this.zipCodeTemperatureData.get(zipCode));
+        return temperature.orElseThrow();
     }
 }

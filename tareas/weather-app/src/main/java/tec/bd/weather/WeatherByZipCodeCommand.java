@@ -11,5 +11,13 @@ public class WeatherByZipCodeCommand implements Runnable {
     @Override
     public void run() {
         System.out.println("By Zip Code: " + zipCode);
+
+        try {
+            WeatherService weatherService = new WeatherServiceImpl();
+            System.out.println(weatherService.getZipCodeTemperature(zipCode));
+        } catch (Exception e) {
+            System.err.println(zipCode + " is not supported");
+        }
+    
     }
 }

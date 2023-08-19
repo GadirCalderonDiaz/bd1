@@ -1,6 +1,8 @@
-package tec.bd.weather;
+package tec.bd.weather.cli;
 
 import picocli.CommandLine;
+import tec.bd.weather.ApplicationContext;
+
 
 @CommandLine.Command(name = "by-city", description = "Get weather for a particular city")
 public class WeatherByCityCommand implements Runnable {
@@ -13,7 +15,10 @@ public class WeatherByCityCommand implements Runnable {
         System.out.println("By City: " + cityName);
 
         try {
-            WeatherService weatherService = new WeatherServiceImpl();
+            var AppContext = new ApplicationContext();
+            var weatherService = AppContext.getWeatherService();
+
+
             System.out.println(weatherService.getCityTemperature(cityName));
         } catch (Exception e) {
             System.err.println(cityName + " is not supported");

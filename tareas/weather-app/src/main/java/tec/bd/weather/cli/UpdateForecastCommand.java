@@ -2,8 +2,7 @@ package tec.bd.weather.cli;
 
 import picocli.CommandLine;
 import tec.bd.weather.ApplicationContext;
-import tec.bd.weather.entity.Weather;
-import tec.bd.weather.entity.Weather;
+import tec.bd.weather.entity.Forecast;
 
 @CommandLine.Command(name = "update-forecast", aliases = { "uf" }, description = "Update existing forecast data")
 public class UpdateForecastCommand implements Runnable {
@@ -27,8 +26,8 @@ public class UpdateForecastCommand implements Runnable {
         try {
             var appContext = new ApplicationContext();
             var weatherService = appContext.getWeatherService();
-            var newForecast = new Weather(newForecastId, countryName, cityName, zipCode, temperature);
-            var updatedForecast = weatherService.updateForecast(newForecast);
+            var newForecast = new Forecast(newForecastId, countryName, cityName, zipCode, temperature);
+            var  updatedForecast = weatherService.updateForecast(newForecast);
             System.out.println(updatedForecast);
         } catch (Exception e) {
             System.err.println("Can't upated forecast. " +  e.getMessage());

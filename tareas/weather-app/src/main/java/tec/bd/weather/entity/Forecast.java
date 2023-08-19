@@ -1,6 +1,6 @@
 package tec.bd.weather.entity;
 
-public class Weather {
+public class Forecast {
 
     private Integer id;
 
@@ -12,12 +12,12 @@ public class Weather {
 
     private String countryName;
 
-    public  Weather(){
+    public Forecast(){
 
 
     }
 
-    public Weather(Integer id, String cityName, String countryName ,String zipCode, float temperature){
+    public Forecast(Integer id, String cityName, String countryName , String zipCode, float temperature){
 
         this.countryName = countryName;
         this.id = id;
@@ -69,23 +69,23 @@ public class Weather {
     }
 
 
-    public static void validate(Weather weather){
-        if(weather == null){
+    public static void validate(Forecast forecast){
+        if(forecast == null){
             throw new RuntimeException("No weather forecast was provided");
         }
-        if(weather.getId() == null){
+        if(forecast.getId() == null){
             throw new RuntimeException("No weather forecast ID was provided");
         }
-        if(weather.getId() > 0){
+        if(forecast.getId() > 0){
             throw new RuntimeException("Weather forecast ID invalid");
         }
-        if(weather.getZipCode() == null){
+        if(forecast.getZipCode() == null){
             throw new RuntimeException("No weather forecast Zip Code was provided ");
         }
-        if(weather.getCityName() == null){
+        if(forecast.getCityName() == null){
             throw new RuntimeException("No weather forecast city name was provided ");
         }
-        if(weather.getCountryName() == null){
+        if(forecast.getCountryName() == null){
             throw new RuntimeException("No weather forecast country name was provided ");
         }
 

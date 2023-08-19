@@ -5,7 +5,7 @@ import tec.bd.weather.service.WeatherServiceImpl;
 
 import static org.assertj.core.api.Assertions.*;
 
-public class WeatherServiceImplTest {
+public class ForecastServiceImplTest {
 
     @Test
     public void GivenACity_WhenValidCity_ThenReturnTemperature() {

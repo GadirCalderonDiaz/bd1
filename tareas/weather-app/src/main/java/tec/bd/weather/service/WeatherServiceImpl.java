@@ -1,17 +1,14 @@
 package tec.bd.weather.service;
 
-import tec.bd.weather.entity.Weather;
+import tec.bd.weather.entity.Forecast;
 import tec.bd.weather.repository.Repository;
-
-
-import static java.util.Optional.*;
 
 public class WeatherServiceImpl implements WeatherService {
 
 
-    private Repository<Weather, Integer> weatherRepository;
+    private Repository<Forecast, Integer> weatherRepository;
 
-    public WeatherServiceImpl(Repository<Weather, Integer>weatherRepository) {
+    public WeatherServiceImpl(Repository<Forecast, Integer>weatherRepository) {
             this.weatherRepository = weatherRepository;
     }
 
@@ -38,24 +35,24 @@ public class WeatherServiceImpl implements WeatherService {
     }
 
     @Override
-    public void newForeCast(Weather weather) {
-        Weather.validate(weather);
+    public void newForeCast(Forecast forecast) {
+        Forecast.validate(forecast);
 
-        var current = this.weatherRepository.findById(weather.getId());
+        var current = this.weatherRepository.findById(forecast.getId());
         if(current.isPresent()){
             throw new RuntimeException("Weather forecast ID already exists in database");
         }
-        this.weatherRepository.save(weather);
+        this.weatherRepository.save(forecast);
 
     }
 
-    public Weather updateForecast(Weather weather){
-        Weather.validate(weather);
-        var current = this.weatherRepository.findById(weather.getId());
+    public Forecast updateForecast(Forecast forecast){
+        Forecast.validate(forecast);
+        var current = this.weatherRepository.findById(forecast.getId());
         if(current.isEmpty()){
             throw  new RuntimeException("Weather forecast id doesn't exists in database");
         }
-        return  this.weatherRepository.update(weather);
+        return  this.weatherRepository.update(forecast);
     }
 
     public void removeForecast(int forecastId){

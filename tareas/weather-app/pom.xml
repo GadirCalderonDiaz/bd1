@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>tec.bd</groupId>
-  <artifactId>weather-app</artifactId>
+  <artifactId>forecast-app</artifactId>
   <version>1.0.1-SNAPSHOT</version>
 
-  <name>weather-app</name>
+  <name>forecast-app</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -87,7 +87,7 @@
             <archive>
               <manifest>
                 <addClasspath>true</addClasspath>
-                <mainClass>tec.bd.weather.App</mainClass>
+                <mainClass>tec.bd.forecast.App</mainClass>
               </manifest>
             </archive>
           </configuration>
@@ -98,7 +98,7 @@
           <configuration>
             <archive>
               <manifest>
-                <mainClass>tec.bd.weather.App</mainClass>
+                <mainClass>tec.bd.forecast.App</mainClass>
               </manifest>
             </archive>
             <descriptorRefs>

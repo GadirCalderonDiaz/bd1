@@ -5,7 +5,7 @@ import tec.bd.weather.ApplicationContext;
 
 
 @CommandLine.Command(name = "by-city", description = "Get weather for a particular city")
-public class WeatherByCityCommand implements Runnable {
+public class ForecastByCityCommand implements Runnable {
 
     @CommandLine.Parameters(paramLabel = "<city name>", description = "The city name")
     private String cityName;

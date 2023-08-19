@@ -2,8 +2,7 @@ package tec.bd.weather.cli;
 
 import picocli.CommandLine;
 import tec.bd.weather.ApplicationContext;
-import tec.bd.weather.entity.Weather;
-import tec.bd.weather.entity.Weather;
+import tec.bd.weather.entity.Forecast;
 
 @CommandLine.Command(name = "create-forecast", aliases = {"cf"}, description = "Create new forecast for a city")
 public class CreateForecastCommand implements Runnable {
@@ -27,7 +26,7 @@ public class CreateForecastCommand implements Runnable {
         try {
             var appContext = new ApplicationContext();
             var weatherService = appContext.getWeatherService();
-            var newForecast = new Weather(newForecastId, countryName, cityName, zipCode, temperature);
+            var newForecast = new Forecast(newForecastId, countryName, cityName, zipCode, temperature);
             weatherService.newForeCast(newForecast);
             System.out.println(newForecast);
         } catch (Exception e) {

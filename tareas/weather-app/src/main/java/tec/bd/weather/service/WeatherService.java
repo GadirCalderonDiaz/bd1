@@ -7,7 +7,7 @@ public interface WeatherService {
     float getCityTemperature(String city);
     float getZipCodeTemperature(String zipCode);
 
-    void newForeCast(Forecast forecast);
+    void newForecast(Forecast forecast);
 
     Forecast updateForecast(Forecast forecast);
 

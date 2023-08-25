@@ -1,8 +1,12 @@
 package tec.bd.weather.entity;
 
+import java.util.Date;
+
 public class Forecast {
 
     private Integer id;
+
+    private Date forecastDate;
 
     private float temperature;
 
@@ -12,13 +16,14 @@ public class Forecast {
 
     private String countryName;
 
+
     public Forecast(){
 
 
     }
 
-    public Forecast(Integer id, String cityName, String countryName , String zipCode, float temperature){
-
+    public Forecast(Integer id, String cityName, String countryName , String zipCode, Date date,float temperature){
+        this.forecastDate = date;
         this.countryName = countryName;
         this.id = id;
         this.cityName = cityName;
@@ -68,6 +73,25 @@ public class Forecast {
         this.countryName = countryName;
     }
 
+    public Date getForecastDate() {
+        return forecastDate;
+    }
+
+    public void setForecastDate(Date forecastDate) {
+        this.forecastDate = forecastDate;
+    }
+
+    @Override
+    public String toString() {
+        return "Forecast{" +
+                "id=" + id +
+                ", forecastDate=" + forecastDate +
+                ", temperature=" + temperature +
+                ", cityName='" + cityName + '\'' +
+                ", zipCode='" + zipCode + '\'' +
+                ", countryName='" + countryName + '\'' +
+                '}';
+    }
 
     public static void validate(Forecast forecast){
         if(forecast == null){
@@ -76,7 +100,8 @@ public class Forecast {
         if(forecast.getId() == null){
             throw new RuntimeException("No weather forecast ID was provided");
         }
-        if(forecast.getId() > 0){
+        //System.out.println(forecast.getId());
+        if(forecast.getId() < 1){
             throw new RuntimeException("Weather forecast ID invalid");
         }
         if(forecast.getZipCode() == null){

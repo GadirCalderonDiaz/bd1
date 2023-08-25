@@ -4,13 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b66700d-7ee1-47ec-927b-b1a795df2a10" name="Changes" comment="Se arregla el cambio de weather a forecast y se agrega el DeleteForecastCommand">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/entity/Forecast.java" afterDir="false" />
+    <list default="true" id="6b66700d-7ee1-47ec-927b-b1a795df2a10" name="Changes" comment="Se sube el mismo codigo de dev">
+      <change afterPath="$PROJECT_DIR$/../../.github/workflows/weather-app-build.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tec/bd/weather/service/WeatherServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/ApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/CreateForecastCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/CreateForecastCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/DeleteForecastCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/DeleteForecastCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/MainCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/MainCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/UpdateForecastCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/UpdateForecastCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/entity/Forecast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/entity/Forecast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/repository/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/repository/inMemoryWeatherRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/repository/InMemoryForecastRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/service/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/service/WeatherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/service/WeatherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/service/WeatherServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tec/bd/weather/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tec/bd/weather/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tec/bd/weather/ForecastServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tec/bd/weather/ForecastServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +40,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.9.4/bin" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
@@ -41,27 +61,110 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "Merging dev",
+    "last_opened_file_path": "C:/Users/Gadyr/Documents/jdk-14.0.2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
+  <component name="RunManager" selected="JUnit.WeatherServiceImplTest.GivenNoneExistingForecast_WhenUpdateForecast_ThenServiceException">
+    <configuration name="WeatherServiceImplTest.GivenAInvalidForecast_WhenCreateNewForecast_ThenServiceException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weather-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tec.bd.weather.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tec.bd.weather.service" />
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.service.WeatherServiceImplTest" />
+      <option name="METHOD_NAME" value="GivenAInvalidForecast_WhenCreateNewForecast_ThenServiceException" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
+    <configuration name="WeatherServiceImplTest.GivenAValidForecast_WhenCreateNewForecast_ThenForecastIsCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weather-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tec.bd.weather.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tec.bd.weather.service" />
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.service.WeatherServiceImplTest" />
+      <option name="METHOD_NAME" value="GivenAValidForecast_WhenCreateNewForecast_ThenForecastIsCreated" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeatherServiceImplTest.GivenExistingForecast_WhenCreateNewForecast_ThenServiceException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weather-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tec.bd.weather.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tec.bd.weather.service" />
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.service.WeatherServiceImplTest" />
+      <option name="METHOD_NAME" value="GivenExistingForecast_WhenCreateNewForecast_ThenServiceException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherServiceImplTest.GivenNoneExistingForecast_WhenUpdateForecast_ThenServiceException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weather-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tec.bd.weather.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tec.bd.weather.service" />
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.service.WeatherServiceImplTest" />
+      <option name="METHOD_NAME" value="GivenNoneExistingForecast_WhenUpdateForecast_ThenServiceException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherServiceImplTest.GivenValidForecast_WhenUpdatingTemperature_ThenNewTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weather-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tec.bd.weather.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tec.bd.weather.service" />
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.service.WeatherServiceImplTest" />
+      <option name="METHOD_NAME" value="GivenValidForecast_WhenUpdatingTemperature_ThenNewTemperature" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WeatherServiceImplTest.GivenNoneExistingForecast_WhenUpdateForecast_ThenServiceException" />
+        <item itemvalue="JUnit.WeatherServiceImplTest.GivenAInvalidForecast_WhenCreateNewForecast_ThenServiceException" />
+        <item itemvalue="JUnit.WeatherServiceImplTest.GivenValidForecast_WhenUpdatingTemperature_ThenNewTemperature" />
+        <item itemvalue="JUnit.WeatherServiceImplTest.GivenAValidForecast_WhenCreateNewForecast_ThenForecastIsCreated" />
+        <item itemvalue="JUnit.WeatherServiceImplTest.GivenExistingForecast_WhenCreateNewForecast_ThenServiceException" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,7 +175,14 @@
       <option name="presentableId" value="Default" />
       <updated>1692427149320</updated>
       <workItem from="1692427153171" duration="1724000" />
-      <workItem from="1692464882805" duration="5273000" />
+      <workItem from="1692464882805" duration="5866000" />
+      <workItem from="1692477417878" duration="319000" />
+      <workItem from="1692477750789" duration="401000" />
+      <workItem from="1692478165831" duration="312000" />
+      <workItem from="1692835669877" duration="3176000" />
+      <workItem from="1692924960587" duration="11932000" />
+      <workItem from="1692938916758" duration="1722000" />
+      <workItem from="1693001252403" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="Se arregla el cambio de weather a forecast y se agrega el DeleteForecastCommand">
       <option name="closed" value="true" />
@@ -82,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692474407091</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Se sube el mismo codigo de dev">
+      <option name="closed" value="true" />
+      <created>1692476903625</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692476903625</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +231,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se arregla el cambio de weather a forecast y se agrega el DeleteForecastCommand" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se arregla el cambio de weather a forecast y se agrega el DeleteForecastCommand" />
+    <MESSAGE value="Se sube el mismo codigo de dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se sube el mismo codigo de dev" />
   </component>
 </project>

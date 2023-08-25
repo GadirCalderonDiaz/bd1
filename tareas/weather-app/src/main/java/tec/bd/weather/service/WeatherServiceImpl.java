@@ -8,7 +8,7 @@ public class WeatherServiceImpl implements WeatherService {
 
     private Repository<Forecast, Integer> weatherRepository;
 
-    public WeatherServiceImpl(Repository<Forecast, Integer>weatherRepository) {
+    public WeatherServiceImpl(Repository<Forecast, Integer> weatherRepository) {
             this.weatherRepository = weatherRepository;
     }
 
@@ -35,7 +35,7 @@ public class WeatherServiceImpl implements WeatherService {
     }
 
     @Override
-    public void newForeCast(Forecast forecast) {
+    public void newForecast(Forecast forecast) {
         Forecast.validate(forecast);
 
         var current = this.weatherRepository.findById(forecast.getId());

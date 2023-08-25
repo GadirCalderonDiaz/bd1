@@ -14,7 +14,7 @@ public interface Repository <T,ID> {
      */
     Optional findById(ID id);
 
-   List<T> findAll();
+    List<T> findAll();
 
     void save(T t);
 

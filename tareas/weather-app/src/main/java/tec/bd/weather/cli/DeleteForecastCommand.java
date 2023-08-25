@@ -2,7 +2,6 @@ package tec.bd.weather.cli;
 
 import picocli.CommandLine;
 import tec.bd.weather.ApplicationContext;
-import tec.bd.weather.entity.Forecast;
 
 @CommandLine.Command(name = "delete-forecast", aliases = { "df" }, description = "Delete existing forecast data")
 public class DeleteForecastCommand implements Runnable {

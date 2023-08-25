@@ -13,7 +13,8 @@
 
 
 
-  <developerConnection><scm>
+  <developerConnection>
+  <scm>
   <developerConnection>scm:git:https://github.com/GadirCalderonDiaz/bd1.git </developerConnection>
 
 </scm>

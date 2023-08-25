@@ -2,7 +2,7 @@ package tec.bd.weather;
 
 import tec.bd.weather.entity.Forecast;
 import tec.bd.weather.repository.Repository;
-import tec.bd.weather.repository.inMemoryWeatherRepository;
+import tec.bd.weather.repository.InMemoryForecastRepository;
 import tec.bd.weather.service.WeatherService;
 import tec.bd.weather.service.WeatherServiceImpl;
 
@@ -17,7 +17,7 @@ public class ApplicationContext {
     }
 
     private void  initWeatherRepository(Repository<Forecast, Integer> weatherRepository){
-        this.weatherRepository= new inMemoryWeatherRepository();
+        this.weatherRepository= new InMemoryForecastRepository();
     }
     private void initWeatherService(){
         this.weatherService = new WeatherServiceImpl(this.weatherRepository);

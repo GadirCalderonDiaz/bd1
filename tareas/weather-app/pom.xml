@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>tec.bd</groupId>
-  <artifactId>forecast-app</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <artifactId>weather-app</artifactId>
+  <version>1.0.2-SNAPSHOT</version>
 
-  <name>forecast-app</name>
+  <name>weather-app</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -46,6 +45,19 @@
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-engine</artifactId>
       <version>5.7.1</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>3.8.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-junit-jupiter</artifactId>
+      <version>3.8.0</version>
       <scope>test</scope>
     </dependency>
 
@@ -87,7 +99,7 @@
             <archive>
               <manifest>
                 <addClasspath>true</addClasspath>
-                <mainClass>tec.bd.forecast.App</mainClass>
+                <mainClass>tec.bd.weather.App</mainClass>
               </manifest>
             </archive>
           </configuration>
@@ -98,7 +110,7 @@
           <configuration>
             <archive>
               <manifest>
-                <mainClass>tec.bd.forecast.App</mainClass>
+                <mainClass>tec.bd.weather.App</mainClass>
               </manifest>
             </archive>
             <descriptorRefs>

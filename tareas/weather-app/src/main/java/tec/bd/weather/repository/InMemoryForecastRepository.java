@@ -4,18 +4,18 @@ import tec.bd.weather.entity.Forecast;
 
 import java.util.*;
 
-public class inMemoryWeatherRepository implements  Repository<Forecast, Integer> {
+public class InMemoryForecastRepository implements  Repository<Forecast, Integer> {
 
     private Set<Forecast> inMemoryForecastData;
 
-    public inMemoryWeatherRepository(){
+    public InMemoryForecastRepository(){
         //INI datos
         this.inMemoryForecastData = new HashSet<>();
-        this.inMemoryForecastData.add(new Forecast(1,"Limon","Costa Rica","0700",27.0f));
-        this.inMemoryForecastData.add(new Forecast(2,"Alajuela","Costa Rica","0200",23.0f));
-        this.inMemoryForecastData.add(new Forecast(3,"Heredia","Panamá","0400",25.0f));
-        this.inMemoryForecastData.add(new Forecast(4,"Guanacaste","Colombia","0500",29.0f));
-
+        this.inMemoryForecastData.add(new Forecast(1, "Costa Rica", "Alajuela", "10101", new Date(), 23.0f));
+        this.inMemoryForecastData.add(new Forecast(2, "Costa Rica", "Cartago", "20201", new Date(), 24.0f));
+        this.inMemoryForecastData.add(new Forecast(3, "Costa Rica", "San Jose", "30301", new Date(), 25.0f));
+        this.inMemoryForecastData.add(new Forecast(4, "Costa Rica", "Limon", "40401", new Date(), 25.0f));
+       // this.inMemoryForecastData.add(new Forecast(5, "Limon", "Costa Rica", "33122", new Date(),  23.0f));
     }
 
     @Override
@@ -44,6 +44,7 @@ public class inMemoryWeatherRepository implements  Repository<Forecast, Integer>
 
     @Override
     public Forecast update(Forecast source) {
+        System.out.println("1");
         var current = this.findById(source.getId()).get();
         current.setCityName(source.getCityName());
         current.setZipCode(source.getZipCode());

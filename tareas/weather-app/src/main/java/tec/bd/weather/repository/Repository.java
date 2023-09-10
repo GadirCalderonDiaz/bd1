@@ -16,7 +16,7 @@ public interface Repository <T,ID> {
 
     List<T> findAll();
 
-    void save(T t);
+    T save(T t);
 
     void delete(ID id);
 

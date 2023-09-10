@@ -4,7 +4,7 @@ import picocli.CommandLine;
 import tec.bd.weather.ApplicationContext;
 
 
-@CommandLine.Command(name = "by-city", description = "Get weather for a particular city")
+@CommandLine.Command(name = "by-city",aliases = { "bc" }, description = "Get weather for a particular city")
 public class ForecastByCityCommand implements Runnable {
 
     @CommandLine.Parameters(paramLabel = "<city name>", description = "The city name")

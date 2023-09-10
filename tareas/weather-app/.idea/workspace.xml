@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b66700d-7ee1-47ec-927b-b1a795df2a10" name="Changes" comment="Se sube el mismo codigo de dev">
+    <list default="true" id="6b66700d-7ee1-47ec-927b-b1a795df2a10" name="Changes" comment="codigo tarea 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/ApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/CreateForecastCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/CreateForecastCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/UpdateForecastCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/UpdateForecastCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/entity/Forecast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/entity/Forecast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/repository/inMemoryWeatherRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/repository/InMemoryForecastRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/service/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/service/WeatherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/service/WeatherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/service/WeatherServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +21,29 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "GadirCalderonDiaz"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6f51e183-9051-4a69-9909-f4178cdab616" />
+        <option name="url" value="https://github.com/GadirCalderonDiaz/bd1.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -50,8 +65,9 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Gadyr/Documents/jdk-14.0.2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -65,7 +81,71 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.WeatherServiceImplTest.GivenNoneExistingForecast_WhenUpdateForecast_ThenServiceException">
+  <component name="RunManager" selected="Application.Remove Forecast">
+    <configuration name="AllForecast" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="af " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Remove Forecast" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="rf 4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Update Forecast" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="uf 5 &quot;United States&quot; &quot;New Jersey&quot; 10001 &quot;2023-05-05 11:11:11&quot; 20.0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="by city name" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="bc &quot;Chicago&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="by zip code" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="bz &quot;50601&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="create-forecast" type="Application" factoryName="Application" activateToolWindowBeforeRun="false">
+      <option name="ALTERNATIVE_JRE_PATH" value="14" />
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="cf &quot;United States&quot; &quot;Chicago&quot; &quot;10001&quot; &quot;23-09-09 00:00:00&quot; 23" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weather-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tec.bd.weather.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tec.bd.weather.service" />
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.service.WeatherServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WeatherServiceImplTest.GivenAInvalidForecast_WhenCreateNewForecast_ThenServiceException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="weather-app" />
       <extension name="coverage">
@@ -93,22 +173,6 @@
       <option name="PACKAGE_NAME" value="tec.bd.weather.service" />
       <option name="MAIN_CLASS_NAME" value="tec.bd.weather.service.WeatherServiceImplTest" />
       <option name="METHOD_NAME" value="GivenAValidForecast_WhenCreateNewForecast_ThenForecastIsCreated" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WeatherServiceImplTest.GivenExistingForecast_WhenCreateNewForecast_ThenServiceException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="weather-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tec.bd.weather.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tec.bd.weather.service" />
-      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.service.WeatherServiceImplTest" />
-      <option name="METHOD_NAME" value="GivenExistingForecast_WhenCreateNewForecast_ThenServiceException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,13 +210,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="weather-app" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="weather-app" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.by city name" />
+      <item itemvalue="Application.by zip code" />
+      <item itemvalue="Application.Remove Forecast" />
+      <item itemvalue="Application.create-forecast" />
+      <item itemvalue="Application.AllForecast" />
+      <item itemvalue="Application.Update Forecast" />
+      <item itemvalue="JUnit.WeatherServiceImplTest" />
+      <item itemvalue="JUnit.WeatherServiceImplTest.GivenAInvalidForecast_WhenCreateNewForecast_ThenServiceException" />
+      <item itemvalue="JUnit.WeatherServiceImplTest.GivenAValidForecast_WhenCreateNewForecast_ThenForecastIsCreated" />
+      <item itemvalue="JUnit.WeatherServiceImplTest.GivenNoneExistingForecast_WhenUpdateForecast_ThenServiceException" />
+      <item itemvalue="JUnit.WeatherServiceImplTest.GivenValidForecast_WhenUpdatingTemperature_ThenNewTemperature" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WeatherServiceImplTest.GivenNoneExistingForecast_WhenUpdateForecast_ThenServiceException" />
         <item itemvalue="JUnit.WeatherServiceImplTest.GivenAInvalidForecast_WhenCreateNewForecast_ThenServiceException" />
         <item itemvalue="JUnit.WeatherServiceImplTest.GivenValidForecast_WhenUpdatingTemperature_ThenNewTemperature" />
+        <item itemvalue="JUnit.WeatherServiceImplTest" />
+        <item itemvalue="JUnit.WeatherServiceImplTest.GivenNoneExistingForecast_WhenUpdateForecast_ThenServiceException" />
         <item itemvalue="JUnit.WeatherServiceImplTest.GivenAValidForecast_WhenCreateNewForecast_ThenForecastIsCreated" />
-        <item itemvalue="JUnit.WeatherServiceImplTest.GivenExistingForecast_WhenCreateNewForecast_ThenServiceException" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +262,10 @@
       <workItem from="1692835669877" duration="3176000" />
       <workItem from="1692924960587" duration="11932000" />
       <workItem from="1692938916758" duration="1722000" />
+      <workItem from="1693001252403" duration="38000" />
+      <workItem from="1694138238245" duration="17615000" />
+      <workItem from="1694208977693" duration="309000" />
+      <workItem from="1694209300374" duration="19063000" />
     </task>
     <task id="LOCAL-00001" summary="Se arregla el cambio de weather a forecast y se agrega el DeleteForecastCommand">
       <option name="closed" value="true" />
@@ -189,7 +283,23 @@
       <option name="project" value="LOCAL" />
       <updated>1692476903625</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="codigo tarea 3">
+      <option name="closed" value="true" />
+      <created>1693003811811</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693003811811</updated>
+    </task>
+    <task id="LOCAL-00004" summary="codigo tarea 4">
+      <option name="closed" value="true" />
+      <created>1694362107935</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694362107935</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +331,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se arregla el cambio de weather a forecast y se agrega el DeleteForecastCommand" />
     <MESSAGE value="Se sube el mismo codigo de dev" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se sube el mismo codigo de dev" />
+    <MESSAGE value="codigo tarea 3" />
+    <MESSAGE value="codigo tarea 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="codigo tarea 4" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/weather_app$create_forecast.ic" NAME="create-forecast Coverage Results" MODIFIED="1694208623865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

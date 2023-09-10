@@ -30,20 +30,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "GadirCalderonDiaz"
-  }
-}]]></component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="6f51e183-9051-4a69-9909-f4178cdab616" />
-        <option name="url" value="https://github.com/GadirCalderonDiaz/bd1.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -60,24 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Gadyr/Documents/jdk-14.0.2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gadyr/Documents/jdk-14.0.2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.WeatherServiceImplTest.GivenNoneExistingForecast_WhenUpdateForecast_ThenServiceException">
     <configuration name="WeatherServiceImplTest.GivenAInvalidForecast_WhenCreateNewForecast_ThenServiceException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="weather-app" />
@@ -159,24 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="JUnit.WeatherServiceImplTest.GivenExistingForecast_WhenCreateNewForecast_ThenServiceException" />
-      <item itemvalue="JUnit.WeatherServiceImplTest.GivenAInvalidForecast_WhenCreateNewForecast_ThenServiceException" />
-      <item itemvalue="JUnit.WeatherServiceImplTest.GivenAValidForecast_WhenCreateNewForecast_ThenForecastIsCreated" />
-      <item itemvalue="JUnit.WeatherServiceImplTest.GivenNoneExistingForecast_WhenUpdateForecast_ThenServiceException" />
-      <item itemvalue="JUnit.WeatherServiceImplTest.GivenValidForecast_WhenUpdatingTemperature_ThenNewTemperature" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.WeatherServiceImplTest.GivenNoneExistingForecast_WhenUpdateForecast_ThenServiceException" />
@@ -253,8 +222,5 @@
     <MESSAGE value="Se arregla el cambio de weather a forecast y se agrega el DeleteForecastCommand" />
     <MESSAGE value="Se sube el mismo codigo de dev" />
     <option name="LAST_COMMIT_MESSAGE" value="Se sube el mismo codigo de dev" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/weather_app$create_forecast.ic" NAME="create-forecast Coverage Results" MODIFIED="1694208623865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

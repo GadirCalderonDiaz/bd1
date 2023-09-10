@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b66700d-7ee1-47ec-927b-b1a795df2a10" name="Changes" comment="codigo tarea 4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6b66700d-7ee1-47ec-927b-b1a795df2a10" name="Changes" comment="codigo tarea 4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -237,7 +235,7 @@
       <workItem from="1693001252403" duration="38000" />
       <workItem from="1694138238245" duration="17615000" />
       <workItem from="1694208977693" duration="309000" />
-      <workItem from="1694209300374" duration="18740000" />
+      <workItem from="1694209300374" duration="19063000" />
     </task>
     <task id="LOCAL-00001" summary="Se arregla el cambio de weather a forecast y se agrega el DeleteForecastCommand">
       <option name="closed" value="true" />

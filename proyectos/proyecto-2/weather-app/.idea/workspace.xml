@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b66700d-7ee1-47ec-927b-b1a795df2a10" name="Changes" comment="Codigo proyecto-2. Actualizacion de repo" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="dev" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GadirCalderonDiaz&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6f51e183-9051-4a69-9909-f4178cdab616" />
+        <option name="url" value="https://github.com/GadirCalderonDiaz/bd1.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.9.4/bin" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2UByDJI7IyLREKYFM8sR08gSd42" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "dev",
+    "last_opened_file_path": "C:/Users/Gadyr/Documents/jdk-14.0.2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.log">
+    <configuration name="AllForecast" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="af " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Remove Forecast" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="rf 4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Update Forecast" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="uf 5 &quot;United States&quot; &quot;New Jersey&quot; 10001 &quot;2023-05-05 11:11:11&quot; 20.0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="by city name" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="bc &quot;Chicago&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="by zip code" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="bz &quot;50601&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="city-create  " type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="city-create &quot;Cartagena&quot; 0123 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="city-delete" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="city-delete 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="city-read-by-id" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="city-read 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="city-read" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="city-read" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="city-update" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="city-update 2 Cali 1235 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="country-Delete" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="country-delete 3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="country-create" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="country-create &quot;Colombia&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="country-read-by-id" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="country-read 3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="country-read" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="country-read" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="country-update" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="country-update 3 &quot;Venezuela&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="create-forecast" type="Application" factoryName="Application" activateToolWindowBeforeRun="false">
+      <option name="ALTERNATIVE_JRE_PATH" value="14" />
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="cf &quot;United States&quot; &quot;Chicago&quot; &quot;10001&quot; &quot;23-09-09 00:00:00&quot; 23" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="forecast-create" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="forecast-create 2 10 2023-11-12" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="forecast-delete" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="forecast-delete 16" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="forecast-read-by-cityID" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="forecast-read-by-cityID 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="forecast-read-by-date" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="forecast-read-by-date &quot;2023-06-12&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="forecast-read-by-zipcode" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="forecast-read-by-zipcode 0123" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="forecast-update" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="forecast-update 2 5 15 '2023-08-12'" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="help" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="log" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="log 6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="state-create " type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="state-create &quot;Medellin&quot; 3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="state-delete" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="state-delete 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="state-read-by-id" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="state-read 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="state-read" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="state-read" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="state-update" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.App" />
+      <module name="weather-app" />
+      <option name="PROGRAM_PARAMETERS" value="state-update 2 &quot;San Jose&quot; 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weather-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tec.bd.weather.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tec.bd.weather.service" />
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.service.WeatherServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherServiceImplTest.GivenAInvalidForecast_WhenCreateNewForecast_ThenServiceException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weather-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tec.bd.weather.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tec.bd.weather.service" />
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.service.WeatherServiceImplTest" />
+      <option name="METHOD_NAME" value="GivenAInvalidForecast_WhenCreateNewForecast_ThenServiceException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherServiceImplTest.GivenAValidForecast_WhenCreateNewForecast_ThenForecastIsCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weather-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tec.bd.weather.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tec.bd.weather.service" />
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.service.WeatherServiceImplTest" />
+      <option name="METHOD_NAME" value="GivenAValidForecast_WhenCreateNewForecast_ThenForecastIsCreated" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherServiceImplTest.GivenNoneExistingForecast_WhenUpdateForecast_ThenServiceException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weather-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tec.bd.weather.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tec.bd.weather.service" />
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.service.WeatherServiceImplTest" />
+      <option name="METHOD_NAME" value="GivenNoneExistingForecast_WhenUpdateForecast_ThenServiceException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherServiceImplTest.GivenValidForecast_WhenUpdatingTemperature_ThenNewTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weather-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tec.bd.weather.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tec.bd.weather.service" />
+      <option name="MAIN_CLASS_NAME" value="tec.bd.weather.service.WeatherServiceImplTest" />
+      <option name="METHOD_NAME" value="GivenValidForecast_WhenUpdatingTemperature_ThenNewTemperature" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.by city name" />
+      <item itemvalue="Application.help" />
+      <item itemvalue="Application.forecast-create" />
+      <item itemvalue="Application.log" />
+      <item itemvalue="Application.forecast-update" />
+      <item itemvalue="Application.forecast-read-by-zipcode" />
+      <item itemvalue="Application.forecast-read-by-cityID" />
+      <item itemvalue="Application.forecast-read-by-date" />
+      <item itemvalue="Application.forecast-delete" />
+      <item itemvalue="Application.city-create  " />
+      <item itemvalue="Application.city-read" />
+      <item itemvalue="Application.city-read-by-id" />
+      <item itemvalue="Application.city-delete" />
+      <item itemvalue="Application.city-update" />
+      <item itemvalue="Application.state-create " />
+      <item itemvalue="Application.state-read" />
+      <item itemvalue="Application.state-read-by-id" />
+      <item itemvalue="Application.state-delete" />
+      <item itemvalue="Application.state-update" />
+      <item itemvalue="Application.country-create" />
+      <item itemvalue="Application.country-update" />
+      <item itemvalue="Application.country-read" />
+      <item itemvalue="Application.country-read-by-id" />
+      <item itemvalue="Application.country-Delete" />
+      <item itemvalue="Application.by zip code" />
+      <item itemvalue="Application.Remove Forecast" />
+      <item itemvalue="Application.create-forecast" />
+      <item itemvalue="Application.AllForecast" />
+      <item itemvalue="Application.Update Forecast" />
+      <item itemvalue="JUnit.WeatherServiceImplTest" />
+      <item itemvalue="JUnit.WeatherServiceImplTest.GivenAInvalidForecast_WhenCreateNewForecast_ThenServiceException" />
+      <item itemvalue="JUnit.WeatherServiceImplTest.GivenAValidForecast_WhenCreateNewForecast_ThenForecastIsCreated" />
+      <item itemvalue="JUnit.WeatherServiceImplTest.GivenNoneExistingForecast_WhenUpdateForecast_ThenServiceException" />
+      <item itemvalue="JUnit.WeatherServiceImplTest.GivenValidForecast_WhenUpdatingTemperature_ThenNewTemperature" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WeatherServiceImplTest.GivenValidForecast_WhenUpdatingTemperature_ThenNewTemperature" />
+        <item itemvalue="JUnit.WeatherServiceImplTest.GivenNoneExistingForecast_WhenUpdateForecast_ThenServiceException" />
+        <item itemvalue="JUnit.WeatherServiceImplTest.GivenAValidForecast_WhenCreateNewForecast_ThenForecastIsCreated" />
+        <item itemvalue="JUnit.WeatherServiceImplTest.GivenAInvalidForecast_WhenCreateNewForecast_ThenServiceException" />
+        <item itemvalue="JUnit.WeatherServiceImplTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b66700d-7ee1-47ec-927b-b1a795df2a10" name="Changes" comment="" />
+      <created>1692427149320</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692427149320</updated>
+      <workItem from="1692427153171" duration="1724000" />
+      <workItem from="1692464882805" duration="5866000" />
+      <workItem from="1692477417878" duration="319000" />
+      <workItem from="1692477750789" duration="401000" />
+      <workItem from="1692478165831" duration="312000" />
+      <workItem from="1692835669877" duration="3176000" />
+      <workItem from="1692924960587" duration="11932000" />
+      <workItem from="1692938916758" duration="1722000" />
+      <workItem from="1693001252403" duration="38000" />
+      <workItem from="1694138238245" duration="17615000" />
+      <workItem from="1694208977693" duration="309000" />
+      <workItem from="1694209300374" duration="19063000" />
+      <workItem from="1696274324160" duration="245000" />
+      <workItem from="1699910465701" duration="775000" />
+      <workItem from="1699911257203" duration="13168000" />
+      <workItem from="1699937926848" duration="4406000" />
+      <workItem from="1700005084150" duration="14617000" />
+      <workItem from="1700061940638" duration="5843000" />
+      <workItem from="1700080911876" duration="3656000" />
+      <workItem from="1700102880051" duration="8941000" />
+      <workItem from="1700155454724" duration="29095000" />
+    </task>
+    <task id="LOCAL-00001" summary="Se arregla el cambio de weather a forecast y se agrega el DeleteForecastCommand">
+      <option name="closed" value="true" />
+      <created>1692474407091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692474407091</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Se sube el mismo codigo de dev">
+      <option name="closed" value="true" />
+      <created>1692476903625</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692476903625</updated>
+    </task>
+    <task id="LOCAL-00003" summary="codigo tarea 3">
+      <option name="closed" value="true" />
+      <created>1693003811811</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693003811811</updated>
+    </task>
+    <task id="LOCAL-00004" summary="codigo tarea 4">
+      <option name="closed" value="true" />
+      <created>1694362107935</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694362107935</updated>
+    </task>
+    <task id="LOCAL-00005" summary="codigo tarea 4">
+      <option name="closed" value="true" />
+      <created>1694365209819</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694365209819</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Codigo proyecto-2. Actualizacion de repo">
+      <option name="closed" value="true" />
+      <created>1700251777356</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700251777356</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se arregla el cambio de weather a forecast y se agrega el DeleteForecastCommand" />
+    <MESSAGE value="Se sube el mismo codigo de dev" />
+    <MESSAGE value="codigo tarea 3" />
+    <MESSAGE value="codigo tarea 4" />
+    <MESSAGE value="Codigo proyecto-2. Actualizacion de repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Codigo proyecto-2. Actualizacion de repo" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/tec/bd/weather/service/StateService.java</url>
+          <line>16</line>
+          <properties class="tec.bd.weather.service.StateService" method="getStateByID">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/weather_app$create_forecast.ic" NAME="create-forecast Coverage Results" MODIFIED="1694208623865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

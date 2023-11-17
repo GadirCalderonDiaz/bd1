@@ -16,6 +16,14 @@ public interface Repository <T,ID> {
 
     List<T> findAll();
 
+    List<T> findLogs(Integer n);
+
+    List<T> findAllDate(String forecastDate);
+
+    List<T> findAllZipCode(Integer zipCode);
+
+    List<T> findAllCityID(Integer zipCode);
+
     T save(T t);
 
     void delete(ID id);

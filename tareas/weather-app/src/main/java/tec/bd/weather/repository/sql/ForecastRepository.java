@@ -62,6 +62,26 @@ public class ForecastRepository implements Repository<Forecast, Integer>  {
     }
 
     @Override
+    public List<Forecast> findLogs(Integer n) {
+        return null;
+    }
+
+    @Override
+    public List<Forecast> findAllDate(String forecastDate) {
+        return null;
+    }
+
+    @Override
+    public List<Forecast> findAllZipCode(Integer zipCode) {
+        return null;
+    }
+
+    @Override
+    public List<Forecast> findAllCityID(Integer zipCode) {
+        return null;
+    }
+
+    @Override
     public Forecast save(Forecast forecast) {
         try (Connection connection = this.dataSource.getConnection();
              PreparedStatement stmt = connection.prepareStatement(Queries.INSERT_NEW_FORECAST, Statement.RETURN_GENERATED_KEYS)) {

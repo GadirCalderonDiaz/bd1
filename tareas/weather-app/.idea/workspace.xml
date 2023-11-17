@@ -4,55 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b66700d-7ee1-47ec-927b-b1a795df2a10" name="Changes" comment="codigo tarea 4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/bitacora/BitacoraForecastLogCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/city/CreateCityCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/city/DeleteCityCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/city/ReadCityCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/city/UpdateCityCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/country/CreateCountryCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/country/DeleteCountryCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/country/ReadCountryCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/country/UpdateCountryCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/forecast/CreateForecastDBCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/forecast/DeleteForecastDBCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/forecast/ReadForecastDBCityIDCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/forecast/ReadForecastDBDateCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/forecast/ReadForecastDBZipcodeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/forecast/UpdateForecastDBCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/state/CreateStateCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/state/DeleteStateCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/state/ReadStateCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/state/UpdateStateCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/entity/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/entity/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/entity/ForecastDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/entity/Logs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/entity/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/repository/sql/CityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/repository/sql/CountryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/repository/sql/ForecastDBRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/repository/sql/ForecastLogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/repository/sql/StateRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/service/CityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/service/CityServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/service/CountryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/service/CountryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/service/ForecastLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/service/ForecastLogImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/service/ForecastService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/service/ForecastServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/service/StateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/service/StateServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6b66700d-7ee1-47ec-927b-b1a795df2a10" name="Changes" comment="Codigo proyecto-2. Actualizacion de repo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/ApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/MainCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/cli/MainCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/repository/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/repository/memory/InMemoryForecastRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/repository/memory/InMemoryForecastRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/repository/sql/ForecastRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/repository/sql/ForecastRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tec/bd/weather/repository/sql/Queries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tec/bd/weather/repository/sql/Queries.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -514,7 +467,7 @@
       <workItem from="1700061940638" duration="5843000" />
       <workItem from="1700080911876" duration="3656000" />
       <workItem from="1700102880051" duration="8941000" />
-      <workItem from="1700155454724" duration="29095000" />
+      <workItem from="1700155454724" duration="29953000" />
     </task>
     <task id="LOCAL-00001" summary="Se arregla el cambio de weather a forecast y se agrega el DeleteForecastCommand">
       <option name="closed" value="true" />
@@ -548,7 +501,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694362107935</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Codigo proyecto-2. Actualizacion de repo">
+      <option name="closed" value="true" />
+      <created>1700250331026</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700250331026</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,7 +543,8 @@
     <MESSAGE value="Se sube el mismo codigo de dev" />
     <MESSAGE value="codigo tarea 3" />
     <MESSAGE value="codigo tarea 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="codigo tarea 4" />
+    <MESSAGE value="Codigo proyecto-2. Actualizacion de repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Codigo proyecto-2. Actualizacion de repo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

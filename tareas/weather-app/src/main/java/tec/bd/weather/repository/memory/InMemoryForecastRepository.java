@@ -40,6 +40,26 @@ public class InMemoryForecastRepository implements Repository<Forecast, Integer>
     }
 
     @Override
+    public List<Forecast> findLogs(Integer n) {
+        return null;
+    }
+
+    @Override
+    public List<Forecast> findAllDate(String forecastDate) {
+        return null;
+    }
+
+    @Override
+    public List<Forecast> findAllZipCode(Integer zipCode) {
+        return null;
+    }
+
+    @Override
+    public List<Forecast> findAllCityID(Integer zipCode) {
+        return null;
+    }
+
+    @Override
     public Forecast save(Forecast forecast) {
         forecast.setId(this.getCurrentMaxId() + 1);
         this.inMemoryForecastData.add(forecast);

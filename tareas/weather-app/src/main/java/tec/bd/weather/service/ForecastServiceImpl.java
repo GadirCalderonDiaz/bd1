@@ -34,8 +34,15 @@ public class ForecastServiceImpl implements ForecastService {
         if(cityID == null){
             throw new RuntimeException("The cityID its NULL");
         }
-        var ForecastToBeSaved = new ForecastDB(null, cityID,0,date, temperature);
-        return this.forecastRepository.save(ForecastToBeSaved);
+        var ci = this.forecastRepository.findById(cityID);
+        if(ci.isPresent()){
+            var ForecastToBeSaved = new ForecastDB(null, cityID,0,date, temperature);
+            return this.forecastRepository.save(ForecastToBeSaved);
+        }else {
+            throw new RuntimeException("The cityID is not found");
+        }
+
+
     }
 
 
